@@ -1,0 +1,33 @@
+# WaveTunes - Gesture Controlled Spotify Player
+
+WaveTunes is a Python-based desktop application that allows users to control Spotify playback using hand gestures detected via webcam. It uses MediaPipe for gesture recognition and Spotipy to interact with the Spotify Web API.
+
+---
+
+## Features
+
+- Open palm - Play (if music is paused)
+- Fist - Pause (if music is playing)
+- Index finger pointing left - Previous track
+- Index finger pointing right - Next track
+- Open palm swipe up/down - Increase or decrease volume
+
+---
+
+## Requirements
+
+- Python 3.8 or higher
+- Spotify Premium account (required for controlling playback via the API)
+- Spotify Desktop App (recommended for volume control support)
+- Webcam
+- Internet connection
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AmirthaRajaRajeswari/WaveTunes.git
+cd WaveTunes
